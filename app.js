@@ -18,7 +18,7 @@ var report = function(job_id, stime, rt, statusCode, msg) {
     method: 'POST',
     json: true,
     auth: {
-      user: config.api.client_id,
+      user: config.api.worker_id,
       pass: config.api.key
     },
     body: {

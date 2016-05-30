@@ -1,7 +1,7 @@
 module.exports = {
   api: {
     endpoint: 'http://example.com/',
-    client_id: '',
+    worker_id: '',
     key: ''
   }
 };
