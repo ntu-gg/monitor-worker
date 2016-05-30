@@ -19,7 +19,7 @@ var report = function(job_id, stime, rt, statusCode, msg) {
     json: true,
     auth: {
       user: config.api.worker_id,
-      pass: config.api.key
+      pass: config.api.secret
     },
     body: {
       job_id: job_id,
